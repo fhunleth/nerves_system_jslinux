@@ -1,8 +1,8 @@
-defmodule NervesSystemMangopiMQPro.MixProject do
+defmodule NervesSystemJSLinux.MixProject do
   use Mix.Project
 
   @github_organization "fhunleth"
-  @app :nerves_system_mangopi_mq_pro
+  @app :nerves_system_jslinux
   @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
@@ -74,7 +74,7 @@ defmodule NervesSystemMangopiMQPro.MixProject do
   end
 
   defp description do
-    "Nerves System - MangoPi MQ-Pro"
+    "Nerves System - JSLinux"
   end
 
   defp docs do
