@@ -98,10 +98,8 @@ defmodule NervesSystemJSLinux.MixProject do
 
   defp package_files do
     [
-      "fwup_include",
       "linux",
       "rootfs_overlay",
-      "uboot",
       "CHANGELOG.md",
       "fwup-revert.conf",
       "fwup.conf",
